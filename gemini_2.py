@@ -13,9 +13,14 @@ import hashlib # For creating unique keys for feedback
 # ----------------------- Configuration -----------------------
 # 🔐 IMPORTANT: In a production environment, use st.secrets!
 # For local testing, you can keep it here or set it as an environment variable.
-# openai_api_key = st.secrets["OPENAI_API_KEY"] 
-openai_api_key = os.getenv("OPEN_API_KEY")  # 🔐 Use st.secrets in production 
-# os.environ["OPENAI_API_KEY"] = openai_api_key
+# # openai_api_key = st.secrets["OPENAI_API_KEY"] 
+# openai_api_key = os.getenv("OPEN_API_KEY")  # 🔐 Use st.secrets in production 
+# # os.environ["OPENAI_API_KEY"] = openai_api_key
+# embeddings = OpenAIEmbeddings()
+# openai.api_key = openai_api_key
+
+openai_api_key = st.secrets["OPENAI_API_KEY"]
+os.environ["OPENAI_API_KEY"] = openai_api_key
 embeddings = OpenAIEmbeddings()
 openai.api_key = openai_api_key
 
