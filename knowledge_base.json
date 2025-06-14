@@ -1,0 +1,44 @@
+[
+  {
+    "error": "Null value in non-nullable column",
+    "fix": "Ensure null checks or default values before writing data.",
+    "source": "GPT-4o",
+    "timestamp": "2025-06-06T14:30:00",
+    "user_fix": null
+  },
+  {
+    "error": "Permission denied",
+    "fix": "Check access permissions or role assignments in the pipeline configuration.",
+    "source": "user",
+    "timestamp": "2025-06-06T14:33:00",
+    "user_fix": "I updated the ACL on the data lake folder."
+  },
+  {
+    "error": "FileNotFoundError",
+    "fix": "Place the file from Archive folder to Landing folder.",
+    "source": "user",
+    "timestamp": "2025-06-13T22:15:39.157660",
+    "user_fix": "Place the file from Archive folder to Landing folder."
+  },
+  {
+    "error": "Token expired",
+    "fix": "The error \"Token expired\" typically indicates that an authentication token used to access a service or resource has expired and needs to be refreshed or renewed. Here are some steps you can take to resolve this issue:\n\n1. **Refresh the Token:**\n   - If your system supports token refresh, initiate a token refresh process. This often involves using a refresh token to obtain a new access token without requiring user interaction.\n\n2. **Increase Token Expiry Time:**\n   - If possible, adjust the token settings to increase the expiry time. This might involve changing settings in the identity provider or authentication server.\n\n3. **Automate Token Renewal:**\n   - Implement a mechanism in your pipeline to automatically renew tokens before they expire. This can be done by scheduling token refresh operations at regular intervals.\n\n4. **Check Token Issuance Process:**\n   - Ensure that the process issuing the token is functioning correctly and is configured to provide tokens with the appropriate lifespan.\n\n5. **Review Authentication Configuration:**\n   - Verify that the authentication configuration in your pipeline is correct and up-to-date. This includes checking client IDs, secrets, and any other credentials used for token generation.\n\n6. **Monitor Token Usage:**\n   - Implement monitoring to track token usage and expiry. This can help identify patterns or issues with token management.\n\n7. **Consult Documentation:**\n   - Review the documentation for the service or API you are accessing to understand how tokens are managed and what the best practices are for handling token expiration",
+    "source": "GPT-4o",
+    "timestamp": "2025-06-13T22:16:56.276327",
+    "user_fix": null
+  },
+  {
+    "error": "Schema mismatch",
+    "fix": "This is a gemini test 2",
+    "source": "User Submitted",
+    "timestamp": "2025-06-13T23:41:53.116967",
+    "user_fix": "This is a test"
+  },
+  {
+    "error": "Token expired",
+    "fix": "Test 3",
+    "source": "user",
+    "timestamp": "2025-06-13T23:45:41.601852",
+    "user_fix": "Test 3"
+  }
+]

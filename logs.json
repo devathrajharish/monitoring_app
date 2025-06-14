@@ -1,0 +1,423 @@
+[
+  {
+    "pipeline_name": "daily_ingest_orders",
+    "status": "failed",
+    "error_message": "Timeout connecting to database",
+    "timestamp": "2024-06-07T10:23:00"
+  },
+  {
+    "pipeline_name": "sales_summary_refresh",
+    "status": "success",
+    "timestamp": "2024-06-07T09:00:00"
+  },
+  {
+    "pipeline_name": "inventory_sync",
+    "status": "failed",
+    "error_message": "Null value found in non-nullable column",
+    "timestamp": "2024-06-07T08:15:00"
+  },
+  {
+    "pipeline_name": "customer_feedback_ingest",
+    "status": "failed",
+    "error_message": "File not found: feedback_20240606.csv",
+    "timestamp": "2024-06-06T22:30:00"
+  },
+  {
+    "pipeline_name": "product_dim_update",
+    "status": "success",
+    "timestamp": "2024-06-06T21:00:00"
+  },
+  {
+    "pipeline_name": "ad_campaign_attribution",
+    "status": "failed",
+    "error_message": "Division by zero encountered in transformation logic",
+    "timestamp": "2024-06-06T18:45:00"
+  },
+  {
+    "pipeline_name": "weekly_financials_export",
+    "status": "success",
+    "timestamp": "2024-06-06T12:00:00"
+  },
+  {
+    "pipeline_name": "user_behavior_tracking",
+    "status": "failed",
+    "error_message": "Kafka topic not reachable",
+    "timestamp": "2024-06-05T23:59:59"
+  },
+  {
+    "pipeline_name": "geo_location_normalization",
+    "status": "failed",
+    "error_message": "Geo mapping service returned 503",
+    "timestamp": "2024-06-05T18:00:00"
+  },
+  {
+    "pipeline_name": "partner_data_merge",
+    "status": "success",
+    "timestamp": "2024-06-05T15:30:00"
+  },
+  {
+    "pipeline_name": "retail_orders_archive",
+    "status": "success",
+    "timestamp": "2024-06-05T13:15:00"
+  },
+  {
+    "pipeline_name": "loyalty_points_sync",
+    "status": "failed",
+    "error_message": "Authentication token expired",
+    "timestamp": "2024-06-05T10:10:00"
+  },
+  {
+    "pipeline_name": "email_optout_update",
+    "status": "failed",
+    "error_message": "Unexpected null value in opt_out_reason",
+    "timestamp": "2024-06-05T09:00:00"
+  },
+  {
+    "pipeline_name": "product_review_analytics",
+    "status": "success",
+    "timestamp": "2024-06-04T23:45:00"
+  },
+  {
+    "pipeline_name": "weather_data_ingestion",
+    "status": "failed",
+    "error_message": "HTTP 403: Forbidden - API key invalid",
+    "timestamp": "2024-06-04T20:20:00"
+  },
+  {
+    "pipeline_name": "stock_movement_etl",
+    "status": "success",
+    "timestamp": "2024-06-04T17:00:00"
+  },
+  {
+    "pipeline_name": "refund_analysis_summary",
+    "status": "failed",
+    "error_message": "Missing column: refund_reason",
+    "timestamp": "2024-06-04T11:11:00"
+  },
+  {
+    "pipeline_name": "affiliate_sales_tracker",
+    "status": "failed",
+    "error_message": "S3 bucket permission denied",
+    "timestamp": "2024-06-03T22:00:00"
+  },
+  {
+    "pipeline_name": "brand_performance_insights",
+    "status": "success",
+    "timestamp": "2024-06-03T18:00:00"
+  },
+  {
+    "pipeline_name": "session_data_etl",
+    "status": "success",
+    "timestamp": "2024-06-03T13:13:00"
+  },
+
+  {
+      "pipeline_name": "orders_ingestion",
+      "status": "failed",
+      "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+      "timestamp": "2024-06-07T08:15:00"
+    },
+    {
+      "pipeline_name": "customer_data_transform",
+      "status": "failed",
+      "error_message": "org.apache.spark.sql.AnalysisException: Resolved attribute(s) id missing from input",
+      "timestamp": "2024-06-07T09:20:00"
+    },
+    {
+      "pipeline_name": "inventory_sync",
+      "status": "failed",
+      "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+      "timestamp": "2024-06-07T10:35:00"
+    },
+    {
+      "pipeline_name": "sales_fact_loader",
+      "status": "failed",
+      "error_message": "org.apache.spark.SparkException: Job aborted due to stage failure: Task not serializable",
+      "timestamp": "2024-06-07T11:45:00"
+    },
+    {
+      "pipeline_name": "user_profile_merge",
+      "status": "failed",
+      "error_message": "org.apache.spark.sql.AnalysisException: cannot resolve '`user_id`' given input columns",
+      "timestamp": "2024-06-07T12:00:00"
+    },
+    {
+      "pipeline_name": "transaction_enrichment",
+      "status": "failed",
+      "error_message": "org.apache.spark.SparkException: Exception thrown in awaitResult",
+      "timestamp": "2024-06-07T13:10:00"
+    },
+    {
+      "pipeline_name": "orders_ingestion",
+      "status": "failed",
+      "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+      "timestamp": "2024-06-07T14:25:00"
+    },
+    {
+      "pipeline_name": "inventory_sync",
+      "status": "failed",
+      "error_message": "org.apache.spark.sql.AnalysisException: cannot resolve '`product_id`' given input columns",
+      "timestamp": "2024-06-07T15:30:00"
+    },
+    {
+      "pipeline_name": "customer_data_transform",
+      "status": "failed",
+      "error_message": "org.apache.spark.sql.catalyst.parser.ParseException: mismatched input",
+      "timestamp": "2024-06-07T16:45:00"
+    },
+    {
+      "pipeline_name": "sales_fact_loader",
+      "status": "failed",
+      "error_message": "org.apache.spark.SparkException: Task failed while writing rows",
+      "timestamp": "2024-06-07T17:50:00"
+    },
+      {
+        "pipeline_name": "orders_ingestion_copy",
+        "status": "failed",
+        "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+        "timestamp": "2024-06-07T08:15:00"
+      },
+      {
+        "pipeline_name": "customer_data_transform_copy",
+        "status": "failed",
+        "error_message": "org.apache.spark.sql.AnalysisException: Resolved attribute(s) id missing from input",
+        "timestamp": "2024-06-07T09:20:00"
+      },
+      {
+        "pipeline_name": "inventory_sync_copy",
+        "status": "failed",
+        "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+        "timestamp": "2024-06-07T10:35:00"
+      },
+      {
+        "pipeline_name": "sales_fact_loader_copy",
+        "status": "failed",
+        "error_message": "org.apache.spark.SparkException: Job aborted due to stage failure: Task not serializable",
+        "timestamp": "2024-06-07T11:45:00"
+      },
+      
+        {
+          "pipeline_name": "daily_ingest_orders",
+          "status": "failed",
+          "error_message": "Timeout connecting to database",
+          "timestamp": "2024-06-07T10:23:00"
+        },
+        {
+          "pipeline_name": "sales_summary_refresh",
+          "status": "success",
+          "timestamp": "2024-06-07T09:00:00"
+        },
+        {
+          "pipeline_name": "inventory_sync",
+          "status": "failed",
+          "error_message": "Null value found in non-nullable column",
+          "timestamp": "2024-06-07T08:15:00"
+        },
+        {
+          "pipeline_name": "customer_feedback_ingest",
+          "status": "failed",
+          "error_message": "File not found: feedback_20240606.csv",
+          "timestamp": "2024-06-06T22:30:00"
+        },
+        {
+          "pipeline_name": "product_dim_update",
+          "status": "success",
+          "timestamp": "2024-06-06T21:00:00"
+        },
+        {
+          "pipeline_name": "ad_campaign_attribution",
+          "status": "failed",
+          "error_message": "Division by zero encountered in transformation logic",
+          "timestamp": "2024-06-06T18:45:00"
+        },
+        {
+          "pipeline_name": "weekly_financials_export",
+          "status": "success",
+          "timestamp": "2024-06-06T12:00:00"
+        },
+        {
+          "pipeline_name": "user_behavior_tracking",
+          "status": "failed",
+          "error_message": "Kafka topic not reachable",
+          "timestamp": "2024-06-05T23:59:59"
+        },
+        {
+          "pipeline_name": "geo_location_normalization",
+          "status": "failed",
+          "error_message": "Geo mapping service returned 503",
+          "timestamp": "2024-06-05T18:00:00"
+        },
+        {
+          "pipeline_name": "partner_data_merge",
+          "status": "success",
+          "timestamp": "2024-06-05T15:30:00"
+        },
+        {
+          "pipeline_name": "retail_orders_archive",
+          "status": "success",
+          "timestamp": "2024-06-05T13:15:00"
+        },
+        {
+          "pipeline_name": "loyalty_points_sync",
+          "status": "failed",
+          "error_message": "Authentication token expired",
+          "timestamp": "2024-06-05T10:10:00"
+        },
+        {
+          "pipeline_name": "email_optout_update",
+          "status": "failed",
+          "error_message": "Unexpected null value in opt_out_reason",
+          "timestamp": "2024-06-05T09:00:00"
+        },
+        {
+          "pipeline_name": "product_review_analytics",
+          "status": "success",
+          "timestamp": "2024-06-04T23:45:00"
+        },
+        {
+          "pipeline_name": "weather_data_ingestion",
+          "status": "failed",
+          "error_message": "HTTP 403: Forbidden - API key invalid",
+          "timestamp": "2024-06-04T20:20:00"
+        },
+        {
+          "pipeline_name": "stock_movement_etl",
+          "status": "success",
+          "timestamp": "2024-06-04T17:00:00"
+        },
+        {
+          "pipeline_name": "refund_analysis_summary",
+          "status": "failed",
+          "error_message": "Missing column: refund_reason",
+          "timestamp": "2024-06-04T11:11:00"
+        },
+        {
+          "pipeline_name": "affiliate_sales_tracker",
+          "status": "failed",
+          "error_message": "S3 bucket permission denied",
+          "timestamp": "2024-06-03T22:00:00"
+        },
+        {
+          "pipeline_name": "brand_performance_insights",
+          "status": "success",
+          "timestamp": "2024-06-03T18:00:00"
+        },
+        {
+          "pipeline_name": "session_data_etl",
+          "status": "success",
+          "timestamp": "2024-06-03T13:13:00"
+        },
+        {
+          "pipeline_name": "orders_ingestion",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2024-06-07T08:15:00"
+        },
+        {
+          "pipeline_name": "customer_data_transform",
+          "status": "failed",
+          "error_message": "org.apache.spark.sql.AnalysisException: Resolved attribute(s) id missing from input",
+          "timestamp": "2024-06-07T09:20:00"
+        },
+        {
+          "pipeline_name": "inventory_sync",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2024-06-07T10:35:00"
+        },
+        {
+          "pipeline_name": "sales_fact_loader",
+          "status": "failed",
+          "error_message": "org.apache.spark.SparkException: Job aborted due to stage failure: Task not serializable",
+          "timestamp": "2024-06-07T11:45:00"
+        },
+        {
+          "pipeline_name": "user_profile_merge",
+          "status": "failed",
+          "error_message": "org.apache.spark.sql.AnalysisException: cannot resolve '`user_id`' given input columns",
+          "timestamp": "2024-06-07T12:00:00"
+        },
+        {
+          "pipeline_name": "transaction_enrichment",
+          "status": "failed",
+          "error_message": "org.apache.spark.SparkException: Exception thrown in awaitResult",
+          "timestamp": "2024-06-07T13:10:00"
+        },
+        {
+          "pipeline_name": "orders_ingestion",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2024-06-07T14:25:00"
+        },
+        {
+          "pipeline_name": "inventory_sync",
+          "status": "failed",
+          "error_message": "org.apache.spark.sql.AnalysisException: cannot resolve '`product_id`' given input columns",
+          "timestamp": "2024-06-07T15:30:00"
+        },
+        {
+          "pipeline_name": "customer_data_transform",
+          "status": "failed",
+          "error_message": "org.apache.spark.sql.catalyst.parser.ParseException: mismatched input",
+          "timestamp": "2024-06-07T16:45:00"
+        },
+        {
+          "pipeline_name": "sales_fact_loader",
+          "status": "failed",
+          "error_message": "org.apache.spark.SparkException: Task failed while writing rows",
+          "timestamp": "2024-06-07T17:50:00"
+        },
+        {
+          "pipeline_name": "orders_ingestion_copy",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2024-06-07T08:15:00"
+        },
+        {
+          "pipeline_name": "customer_data_transform_copy",
+          "status": "failed",
+          "error_message": "org.apache.spark.sql.AnalysisException: Resolved attribute(s) id missing from input",
+          "timestamp": "2024-06-07T09:20:00"
+        },
+        {
+          "pipeline_name": "inventory_sync_copy",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2024-06-07T10:35:00"
+        },
+        {
+          "pipeline_name": "sales_fact_loader_copy",
+          "status": "failed",
+          "error_message": "org.apache.spark.SparkException: Job aborted due to stage failure: Task not serializable",
+          "timestamp": "2024-06-07T11:45:00"
+        },
+        {
+          "pipeline_name": "customer_etl",
+          "status": "success",
+          "timestamp": "2025-06-13T02:00:00"
+        },
+        {
+          "pipeline_name": "orders_pipeline",
+          "status": "failed",
+          "error_message": "java.lang.NullPointerException: Null value found in non-nullable column",
+          "timestamp": "2025-06-13T04:00:00"
+        },
+        {
+          "pipeline_name": "payment_gateway_sync",
+          "status": "failed",
+          "error_message": "Timeout connecting to payment provider",
+          "timestamp": "2025-06-13T06:00:00"
+        },
+        {
+          "pipeline_name": "inventory_delta_update",
+          "status": "success",
+          "timestamp": "2025-06-13T08:00:00"
+        },
+        {
+          "pipeline_name": "shipping_status_ingest",
+          "status": "failed",
+          "error_message": "org.apache.spark.SparkException: Job aborted due to stage failure",
+          "timestamp": "2025-06-13T10:00:00"
+        }
+      
+]

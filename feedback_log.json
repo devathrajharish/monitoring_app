@@ -1,0 +1,10 @@
+[
+  {
+    "error": "what pipeline failed today and give me fix",
+    "suggested_fix": "The pipeline that failed today is the **shipping_status_ingest**. It failed at 2025-06-13T10:00:00 with the error: `org.apache.spark.SparkException: Job aborted due to stage failure`.\n\n### Suggested Fix:\n1. **Investigate the Stage Failure**: The error indicates a stage failure in Spark. Check the Spark logs for any task failures or errors that might have caused the stage to fail.\n2. **Common Causes**: \n   - Data Skew: Check if there's data skew causing some tasks to take significantly longer.\n   - Resource Allocation: Ensure that the cluster has enough resources to handle the job.\n   - Faulty Code: Review the transformations and actions in the Spark job for any potential issues.\n\nIf you have more specific logs or stack traces, I can provide a more detailed solution.",
+    "feedback_type": "positive",
+    "user_fix": null,
+    "timestamp": "2025-06-14T00:10:54.207793",
+    "email": "abc@gmail.com"
+  }
+]
