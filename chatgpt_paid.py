@@ -128,10 +128,11 @@ import pandas as pd
 import hashlib
 import warnings
 from typing import List, Dict
+from langchain_community.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.schema import Document
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
