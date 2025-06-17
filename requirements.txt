@@ -5,4 +5,5 @@ faiss-cpu==1.11.0
 streamlit
 langchain
 sentence-transformers
+langchain-community
 
