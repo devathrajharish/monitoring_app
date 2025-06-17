@@ -13,6 +13,10 @@ from langchain.chains import RetrievalQA
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 import numpy as np
+import os
+import openai
+# import warnings
+# warnings.filterwarnings("ignore", message="huggingface/tokenizers: The current process just got forked")
 
 # -------------------- Thread Limiting for macOS Stability --------------------
 os.environ["OMP_NUM_THREADS"] = "1"
